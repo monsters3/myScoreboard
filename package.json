@@ -13,6 +13,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  //Javascript style view
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -20,7 +21,8 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "not IE < 10"
     ],
     "development": [
       "last 1 chrome version",
